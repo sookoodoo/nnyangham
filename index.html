@@ -1,115 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>저를 소개합니다</title>
+    <link rel="stylesheet"
+        href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/easygpt/default.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
     <style>
-         /* 이서윤체 폰트 적용을 위한 코드 */
-      @font-face {
-        font-family: "LeeSeoyun";
-        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff")
-          format("woff");
-        font-weight: normal;
-        font-style: normal;
-      }
-      /* body태그 자체에 css 요소 부여 */
-    body {
-	font-family: "LeeSeoyun";
-	margin: 0;
-	display: flex;
-	justify-content: center;
-	background-image: url("./background.png");
-}
-        .container{
-            width: 390px;
-            background-color: #ff9d73;
-            height:100%;
+        .card {
+            transition: transform 0.2s ease-in-out;
         }
-        .photos {
-	margin-top: 30px;
-}
-.photo-frame {
-	background-color: white;
-	margin: 15px 20px;
-	height: 200px;
-    background-size: cover;
-    position: relative;
-}
-.footer {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-.f-title {
-	font-size: 25px;
-	font-weight: 900;
-	color: white;
-}
-.f-date {
-	font-size: 15px;
-	font-weight: 500;
-	color: white;
-}
-#image1 {
-        background-image: url("./image1.png.jpg");
-}
-#image2 {
-        background-image: url("./image2.png.jpg");
-}
-#image3 {
-        background-image: url("./image3.png.jpg");
-}
-#image4 {
-        background-image: url("./image4.png.jpg");
-}
-.photo-description {
-	
-	color: white;
-	background-color: black;
 
+        .card:hover {
+            transform: scale(1.05);
+        }
+        
+    img {
+      max-width: 100%;
+      height: 100%;
+    }
+  
 
-	width: fit-content;
-	padding: 0 20px;
-	margin-bottom: 5px;
-
-	
-	border-radius: 10px;
-    position: absolute;
-    bottom: 0;
-    transform: translate(-50%);
-    left: 50%;
-}
     </style>
 </head>
+
 <body>
+    <div class="hero bg-dark text-center py-5">
+        <h1 class="text-white">제가 어떤 사람인지 궁금하신가요?</h1>
+        <h2 class="text-white">스크롤하여 자유롭게 구경해보세요^0^</h2>
+    </div>
+    
+    <div style="padding-bottom: 100px;"></div>
     <div class="container">
-        <div class="photos">
-            <div id="image1" class="photo-frame">
-                <span id="desc1" class="photo-description">
-                    거제 프래밀리 밤수영
-                </span>
+        <div class="row">                      
+            
+            <div class="col-md-4 mb-3">
+                <div class="card">
+>
+                        <img src="아기사진.JPG"
+                        <div class="card-body">
+                        <h5 class="card-title">1996년 9월 6일생</h5>
+                        <h6 class="card-subtitle mb-2 text-muted"> 2녀 중 막내</h6>
+                        <p class="card-text">사랑을 듬뿍 받고 자란 INFP! 사랑을 주고 받는 걸 좋아해요. 솔직하고 표정을 잘 못 숨겨요..ㅠㅠ</p>
+                    </div>
+                </div>
             </div>
-      <div id="image2" class="photo-frame">
-                <span id="desc2" class="photo-description">
-                    뽀뽀킬러.png
-                </span>
+
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                        <img src="고등학교.JPG"
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">학창시절</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">교하초-두일중-동두천외고-경인교대</h6>
+                        <p class="card-text"> 배우는 걸 좋아하고 아주 약간의 외국어(영어,중국어)실력을 갖추고 있습니다. 고등학교 때부터 멘토링 활동을 하며 주변에 선한 영향력을 끼치고 싶다는 생각을 했어요.
+                </div>
             </div>
-      <div id="image3" class="photo-frame">
-                <span id="desc3" class="photo-description">
-                    연극보는 문화인
-                </span>
+
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    
+                        <img src="좋아하는 음식.JPG"
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">좋아하는 음식</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">해산물,고기,국밥 등</h6>
+                        <p class="card-text"> 가리는 게 없이 다 잘 먹지만 매운 것, 기름진 것 등은 소화를 잘 못 시켜요. 건강을 위해 자연식품을 먹도록 노력학고 있어요!</p>
+                    </div>
             </div>
-      <div id="image4" class="photo-frame">
-                <span id="desc4" class="photo-description">
-                    성수 yo-baby!
-                </span>
+
+            
+            <div class="col-md-4 mb-3">
+            <div class="card">
+                
+                    <img src="여행.JPG"
+                <div class="card-body">
+                    <h5 class="card-title">국내,외 여행</h5>
+                    <h6 class="card-subtitle mb-2 text-muted"> 일본,몽골 등 </h6>
+                    <p class="card-text"> 스페인어를 배워 유럽여행을 가는 게 버킷리스트에요. 시장에서 현지인과 대화를 하는 게 재밌어요. 더 많은 나라의 문화를 경험하고 싶어요!
+            </div>
+            </div>
+      
+            <div class="col-md-4 mb-3">
+            <div class="card">
+>
+            <img src="캘리.JPG"
+            <div class="card-body">
+            <h5 class="card-title">취미생활</h5>
+            <h6 class="card-subtitle mb-2 text-muted"> 캘리그라피, 그림그리기 등</h6>
+            <p class="card-text"> 글씨 쓰거나 색연필,오일파스텔로 그림그리는 걸 좋아해요. 지금은 디지털 드로잉을 연습하고 있어요!</p>
         </div>
-  <div class="footer">2022-2023
-    <p class="f-title">냥햄네컷</p>
-    <p class="f-date">2023.02.14.</p>
-  </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+    >
+                <img src="신규.JPG"
+                <div class="card-body">
+                <h5 class="card-title">초등교사</h5>
+                <h6 class="card-subtitle mb-2 text-muted"> 3년차 교사</h6>
+                <p class="card-text"> 6개월 기간제를 했지만 우리반 아이들과 함께하는 담임선생님으로서 하루하루가 즐거워요. 학생들마다 성향이 달라 가끔 힘들지만 교사로서 아이들 내면의 힘을 일깨워주고 싶어 미덕교실을 운영하고 있어요.</p>
+            </div>
+                </div>
+</div>
+</div>
+
 </div>
 </body>
+
 </html>
